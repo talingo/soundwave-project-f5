@@ -1,0 +1,8 @@
+
+ .styleCOl {
+      gridRow: '6 / 6', display: 'flex', justifyContent: 'center', alignItems: 'center' 
+     }
+
+    // const styles = {
+//   display: 'grid', gridTemplateRows: 'repeat(12, 1fr)', height: '100vh'
+// };

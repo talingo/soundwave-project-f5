@@ -5,9 +5,8 @@ import { Container, Row, Col, Image, Card } from 'react-bootstrap';
 
 type Props = {}
 
-export function Footer(): JSX.Element{
+const Footer = (props: Props) =>{
   return (
-    <footer>
     <Card className="bg-dark" >
     <Card.Footer  >
     <Container fluid={true}>
@@ -30,6 +29,7 @@ export function Footer(): JSX.Element{
     </Container>
   </Card.Footer>
   </Card>
-  </footer>
   )
 }
+
+export default Footer

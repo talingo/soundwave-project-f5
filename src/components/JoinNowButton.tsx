@@ -6,7 +6,7 @@ type Props = {}
 const JoinNowButton = (props: Props) => {
   return (
     <>
-    <Button href="/join" variant="primary">Join Us</Button>{' '}
+    <Button href="/join" variant="primary">Join Now</Button>{' '}
     </>
   )
 }
